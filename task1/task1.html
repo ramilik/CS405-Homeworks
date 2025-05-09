@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Example</title>
+</head>
+<body>
+    <form>
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Fav number: <input type="number" name="fav_number"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Password: <input type="password" name="password"></label><br>
+
+        <label>Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label><br>
+
+        <label>Country:
+            <select name="country">
+                <option value="usa">USA</option>
+                <option value="aze">AZE</option>
+                
+            </select>
+        </label><br>
+
+        <label>Message:<br>
+            <textarea name="message" rows="5" cols="40"></textarea>
+        </label><br>
+
+        <label><input type="checkbox" name="newsletter"> Subscribe to newsletter</label><br>
+        <label>Upload file: <input type="file" name="file"></label><br>
+        <label>Birthdate: <input type="date" name="birthdate"></label><br>
+        <label>Favorite Color: <input type="color" name="color"></label><br>
+        <label>Personal Website: <input type="url" name="website"></label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
